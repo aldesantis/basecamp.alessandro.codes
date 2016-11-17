@@ -4,20 +4,14 @@ body {
   padding: 15px;
 }
 
-p {
-  margin-bottom: 1rem;
-}
-
-p + p {
-  margin-top: 1.25rem;
-  text-indent: 0;
-}
-
 .container {
   max-width: 930px;
   margin-left: auto;
   margin-right: auto;
-  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
   background-color: white;
   border-radius: 5px;
   border: 3px solid #ddd;
@@ -31,22 +25,19 @@ img {
 
 .signature > p {
   margin-bottom: 0;
+  text-indent: 0;
 }
 
 .signature > p + p {
   margin-top: 0;
 }
 
-.opening-text {
-  float: left;
+.opening {
+  display: flex;
 }
 
 .opening-image {
-  float: right;
-}
-
-.clearfix {
-  clear: both;
+  margin-left: auto;
 }
 
 .avatar {
@@ -56,6 +47,7 @@ img {
 
 p {
   hyphens: auto;
+  text-align: justify;
 }
 
 .section-title {
@@ -66,4 +58,19 @@ p {
   display: inline;
   max-width: 20px;
   margin-bottom: -5px;
+}
+
+footer {
+  display: flex;
+  align-items: flex-end;
+  margin-top: -1.45rem;
+}
+
+footer .icon {
+  margin-left: auto;
+}
+
+footer .icon i {
+  color: #FF4136;
+  font-size: 4.5rem;
 }
