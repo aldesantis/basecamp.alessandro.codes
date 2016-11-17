@@ -1,0 +1,69 @@
+body {
+  font-family: 'Eczar', serif;
+  background-color: #eee;
+  padding: 15px;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+p + p {
+  margin-top: 1.25rem;
+  text-indent: 0;
+}
+
+.container {
+  max-width: 930px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 5px;
+  border: 3px solid #ddd;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.signature > p {
+  margin-bottom: 0;
+}
+
+.signature > p + p {
+  margin-top: 0;
+}
+
+.opening-text {
+  float: left;
+}
+
+.opening-image {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.avatar {
+  max-width: 160px;
+  border-radius: 5px;
+}
+
+p {
+  hyphens: auto;
+}
+
+.section-title {
+  margin-top: 1.5rem !important;
+}
+
+.emoji {
+  display: inline;
+  max-width: 20px;
+  margin-bottom: -5px;
+}
