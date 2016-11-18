@@ -4,6 +4,32 @@ body {
   padding: 15px;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+p {
+  hyphens: auto;
+  text-align: justify;
+}
+
+footer {
+  display: flex;
+  align-items: flex-end;
+  margin-top: -1.45rem;
+}
+
+footer .icon {
+  margin-left: auto;
+}
+
+.heart-icon {
+  color: #FF4136;
+  font-size: 4.5rem;
+}
+
 .container {
   max-width: 930px;
   margin-left: auto;
@@ -15,12 +41,6 @@ body {
   background-color: white;
   border-radius: 5px;
   border: 3px solid #ddd;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  margin: 0 auto;
 }
 
 .signature > p {
@@ -45,11 +65,6 @@ img {
   border-radius: 5px;
 }
 
-p {
-  hyphens: auto;
-  text-align: justify;
-}
-
 .section-title {
   margin-top: 1.5rem !important;
 }
@@ -58,19 +73,4 @@ p {
   display: inline;
   max-width: 20px;
   margin-bottom: -5px;
-}
-
-footer {
-  display: flex;
-  align-items: flex-end;
-  margin-top: -1.45rem;
-}
-
-footer .icon {
-  margin-left: auto;
-}
-
-footer .icon i {
-  color: #FF4136;
-  font-size: 4.5rem;
 }
