@@ -60,6 +60,17 @@ footer .icon {
   margin-left: auto;
 }
 
+@media (max-width: 660px) {
+  .opening {
+    flex-wrap: wrap;
+  }
+
+  .opening-image {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 .avatar {
   max-width: 160px;
   border-radius: 5px;
